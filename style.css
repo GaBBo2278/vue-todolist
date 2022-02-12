@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 60%;
+    margin: auto;
+}
+
+.container header{
+    width: 100%;
+    padding: 5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.container input {
+    margin: 0rem 2rem;
+    border-radius: 0.4rem;
+    width: 13rem;
+    height: 1.7rem;
+    border: 1px solid lightgray;
+}
+
+.container input::placeholder {
+    text-align: center;
+}
+
+.container button {
+    border-radius: 0.4rem;
+    width: 5rem;
+    background-color: lightgray;
+    border: 1px solid lightgray;
+    cursor: pointer;
+}
+
+main .list {
+    background-color: lightgray;
+    padding: 2rem;
+}
+
+main .list ul {
+    list-style: none;
+}
+
+main .list ul li {
+    padding: 0.2rem 0rem;
+    padding-top: 1rem;
+    font-size: 16px;
+    font-weight: bold;
+    border-bottom: 1px solid black;
+    cursor: pointer;
+}
+
+main .list ul li i {
+    float: right;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.line-through {
+    text-decoration: line-through;
+}
